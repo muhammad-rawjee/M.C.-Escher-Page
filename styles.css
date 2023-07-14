@@ -8,7 +8,7 @@ body{
 .header{
     display: flex;
     background-color: #1F2937;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 20px;
     gap: 20px;
@@ -21,5 +21,127 @@ body{
 
 .header > .logo {
     margin-right: auto;
+    padding-left: 450px;
+    font-weight: 900;
+    font-size: x-large;
 }
 
+.header > .link-container{
+    display: flex;
+    padding-right: 400px;
+    gap: 20px;
+}
+
+.intro {
+    display: flex;
+    background-color: #1F2937;
+    padding: 20px;
+    color: bisque;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: auto;
+    height: 280px;
+}
+
+.intro > .text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: auto;
+    height: auto;
+}
+
+.text > .big{
+    font-size: x-large;
+}
+
+.text > .small {
+    width: 300px;
+    font-size: large;
+}
+
+img {
+    height: auto;
+    width: 200px;
+    margin-left: auto;
+}
+
+button {
+    background-color: lightskyblue;
+    border-color: black;
+    height: 30px;
+    width: 80px;
+    border-radius: 12px;
+}
+
+.showc{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    background-color: bisque;
+    gap: 50px;
+}
+
+.showc > .show-item > img{
+    border-radius: 50px;
+    border: 2px solid #555;
+    width:  200px;
+    height: 250px;
+}
+
+.showcase {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    align-items: center;
+}
+
+.showcase > .showcase-title{
+    font-size: 36px;
+    font-weight: 600;
+    color: rgb(32, 29, 29);
+    font-family: Copperplate;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    padding: 20px;
+    gap: 10px;
+}
+
+.quote > .quote-text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+.quote > .quote-author {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 350px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 15px;
+}
+
+.showc > .show-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.showc > .show-item > .item-text{
+    width: 200px;
+    height: 100px;
+    font-family: Copperplate;
+}
